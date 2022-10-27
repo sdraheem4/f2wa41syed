@@ -20,7 +20,7 @@ var val3= "Math.log10(x) applied to "+ x + " is "+ Math.log10(x);
 
 router.get('/', function(req, res, next) {
 
-  res.render('computation', { title:'ABDUL RAHEEM SYED   ',value1: val1, value2:vasl2, value3:val3 });
+  res.render('computation', { title:'ABDUL RAHEEM SYED   ',value1: val1, value2:val2, value3:val3 });
 
 });
 
